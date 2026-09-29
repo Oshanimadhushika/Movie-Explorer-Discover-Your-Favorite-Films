@@ -24,10 +24,10 @@ A beautiful, responsive web application for discovering your favorite movies, po
 
 This application uses a **mock authentication system** — no real backend is required. You can log in with **any non-empty username and password**.
 
-| Field    | Value (example)  |
-|----------|------------------|
-| Username | `admin`          |
-| Password | `admin123`       |
+| Field    | Value (example) |
+| -------- | --------------- |
+| Username | `admin`         |
+| Password | `admin123`      |
 
 > **Note:** The password is not validated — any combination works as long as both fields are filled.
 
@@ -56,6 +56,7 @@ This application uses a **mock authentication system** — no real backend is re
 ## 🌐 API Usage (TMDb)
 
 This application uses [TMDb (The Movie Database)](https://developers.themoviedb.org/3) endpoints to fetch real-time data:
+
 - `/trending/movie/day`: For the default home page feed.
 - `/search/movie`: For the search bar queries.
 - `/discover/movie`: Used when applying filters (genre, year, rating).
@@ -63,9 +64,4 @@ This application uses [TMDb (The Movie Database)](https://developers.themoviedb.
 
 ## 🚢 Deployment
 
-You can deploy this application easily to platforms like Vercel or Netlify.
-For Vercel:
-1. Run `npx vercel` or link your GitHub repository.
-2. Ensure you add `REACT_APP_TMDB_API_KEY` to your Vercel Environment Variables in the project settings.
-3. Build command: `npm run build`
-4. Output directory: `build`
+vercel link:
