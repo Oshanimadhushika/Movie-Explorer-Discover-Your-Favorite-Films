@@ -6,7 +6,7 @@ import MovieCard from '../components/MovieCard';
 import { useAppContext } from '../context/AppProvider';
 
 const Home = () => {
-  const { lastSearch, setLastSearch } = useAppContext();
+  const { setLastSearch } = useAppContext();
   const [movies, setMovies] = useState([]);
   const [query, setQuery] = useState('');
   const [page, setPage] = useState(1);
