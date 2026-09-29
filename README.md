@@ -65,3 +65,4 @@ This application uses [TMDb (The Movie Database)](https://developers.themoviedb.
 ## 🚢 Deployment
 
 vercel link:
+https://movie-explorer-omega-virid.vercel.app/
